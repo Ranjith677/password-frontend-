@@ -21,7 +21,7 @@ const [stCode,setStcode] = useState()
 let loadData = async ()=>{
   
 try {
-  let verifiction = await axios.get("https://passwordresetflowbackend.herokuapp.com/token-verify",{
+  let verifiction = await axios.get("https://password1.onrender.com",{
   headers:{
 'authorization':token
   }
